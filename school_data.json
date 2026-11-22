@@ -1,0 +1,94 @@
+{
+  "school_name": "California State University, Dominguez Hills (CSUDH)",
+  "services": [
+    {
+      "id": "financial_aid",
+      "name": "Financial Aid Office",
+      "description": "Helps CSUDH students access federal, state, and institutional financial assistance including FAFSA, Cal Grant, scholarships, grants, loans, and work-study programs to help cover tuition, books, and living expenses.",
+      "keywords": [
+        "financial aid", "fafsa", "scholarship", "grant", "loan", "tuition", "pay for school",
+        "money", "afford college", "work study", "federal aid", "state aid", "cal grant",
+        "cost of attendance", "financial hardship", "emergency funds", "finaid", "aid office"
+      ],
+      "contact": {
+        "office": "Financial Aid Office",
+        "location": "Toro Welcome & Information Center, Welch Hall 245",
+        "phone": "(310) 243-3691",
+        "email": "finaid@csudh.edu",
+        "hours": "See https://www.csudh.edu/financial-aid/contact-us/ for current office hours",
+        "website": "https://www.csudh.edu/financial-aid/contact-us/"
+      },
+      "what_to_bring": [
+        "Your CSUDH student ID",
+        "Your FAFSA Student Aid Report (SAR) if already filed — file at studentaid.gov",
+        "Recent federal tax documents (yours and/or your parent's, if dependent)",
+        "Any financial aid award letters or scholarship notices you have received"
+      ],
+      "next_steps": "Contact the Financial Aid Office by phone at (310) 243-3691 or by email at finaid@csudh.edu. Visit in person at Welch Hall 245. Check the website for current office hours and any required forms before your visit.",
+      "escalate_to_staff": true
+    },
+    {
+      "id": "tutoring",
+      "name": "Toro Learning & Testing Center (TLTC) — Learning Center",
+      "description": "Provides free academic support to CSUDH students including in-person tutoring at Library 1575, online tutoring through the Toro Success Collaborative, weekly study sessions, and after-hours tutoring through NetTutor available via Canvas. Schedules and available subjects vary — check the website for current availability.",
+      "keywords": [
+        "tutoring", "tutor", "help with class", "struggling in class", "math help", "writing help",
+        "study help", "academic support", "learning center", "failing", "homework help",
+        "science help", "chemistry", "biology", "algebra", "essay", "writing center",
+        "tltc", "toro learning", "nettutor", "canvas tutor", "online tutoring", "study session"
+      ],
+      "contact": {
+        "office": "Toro Learning & Testing Center (TLTC) — Learning Center",
+        "location": "Library 1575 (in-person tutoring)",
+        "phone": "",
+        "email": "",
+        "hours": "Schedules vary by subject — see https://www.csudh.edu/tltc/learning-center/ for current availability",
+        "website": "https://www.csudh.edu/tltc/learning-center/"
+      },
+      "what_to_bring": [
+        "Your class syllabus or assignment description",
+        "Your textbook and class notes",
+        "Specific questions you want help with",
+        "Your CSUDH login credentials to access online tutoring via Toro Success Collaborative or NetTutor through Canvas"
+      ],
+      "next_steps": "For in-person tutoring, visit Library 1575 and check the TLTC website for the current subject schedule. For online tutoring, log in to the Toro Success Collaborative. For after-hours help, access NetTutor through your Canvas course. Visit the website for all current hours and subject availability.",
+      "escalate_to_staff": false
+    },
+    {
+      "id": "academic_advising",
+      "name": "Student Success Centers — Academic Advising",
+      "description": "CSUDH provides academic advising through Student Success Centers organized by college. Each college has its own center that helps students with class selection, degree planning, graduation requirements, and academic concerns. The correct center depends on the student's college or declared major. Colleges with dedicated Student Success Centers include: College of Arts and Humanities, College of Business Administration and Public Policy, College of Education, College of Health, Human Services, and Nursing, and College of Natural and Behavioral Sciences. Visit the official advising page to confirm which center serves your college and to find appointment options.",
+      "keywords": [
+        "advisor", "advising", "academic advisor", "classes", "schedule", "degree plan",
+        "graduation", "transfer", "major", "minor", "academic probation", "withdraw",
+        "drop class", "add class", "course load", "degree requirements", "GPA", "transcript",
+        "student success center", "college advising", "major advising", "csudh advising"
+      ],
+      "contact": {
+        "office": "Student Success Center (varies by college — see website for your center)",
+        "location": "",
+        "phone": "",
+        "email": "",
+        "hours": "See https://www.csudh.edu/class-schedule/fa26/advising-info/ for each center's hours and contact details",
+        "website": "https://www.csudh.edu/class-schedule/fa26/advising-info/"
+      },
+      "what_to_bring": [
+        "Your CSUDH student ID",
+        "Your current class schedule or unofficial transcript (available via MyCSUDH)",
+        "A list of classes you are considering for the next semester",
+        "Any academic hold or probation notices you have received"
+      ],
+      "next_steps": "First, identify your college or declared major. Then visit https://www.csudh.edu/class-schedule/fa26/advising-info/ to find the Student Success Center for your college and schedule an appointment. If you are unsure which college your major belongs to, the advising page will help you identify the correct center.",
+      "escalate_to_staff": true
+    }
+  ],
+  "general_fallback": {
+    "message": "I was not able to find a specific office for your question. Please contact CSUDH Student Affairs and they will direct you to the right office or staff member.",
+    "contact": {
+      "office": "CSUDH Student Affairs",
+      "phone": "",
+      "email": "",
+      "hours": "See https://www.csudh.edu for current contact information"
+    }
+  }
+}
